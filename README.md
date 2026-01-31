@@ -20,20 +20,20 @@ Each group consists of four independent biological replicates (total of eight sa
 - Raw count matrix and sample metadata were imported into R
 - Sample metadata was aligned with count matrix columns
 
-<img width="590" height="678" alt="IMG1" src="https://github.com/user-attachments/assets/87940251-643f-4959-b74e-8464725785c0" />
-
-
+<img width="590" height="678" alt="IMG1" src="https://github.com/user-attachments/assets/87940251-643f-4959-b74e-8464725785c0" /> 
+<br>
 - Lowly expressed genes were filtered to reduce noise
 
 <img width="837" height="662" alt="IMG2" src="https://github.com/user-attachments/assets/982d09a1-5dba-45e4-9c88-ff2e02a6257d" />
-
-
+<br>
+<br>
 
 2. Normalization using DESeq2
 
 Normalization was performed using the DESeq2 package to account for sequencing depth and size factor estimation to get normalized counts.
 
-<img width="392" height="682" alt="IMG3" src="https://github.com/user-attachments/assets/be033b99-7950-42d8-b47c-6ed9db4e8ced" />
+<img width="392" height="682" alt="IMG3" src="https://github.com/user-attachments/assets/be033b99-7950-42d8-b47c-6ed9db4e8ced" /> **[space][space]**
+
 
 
 
@@ -42,6 +42,7 @@ Normalization was performed using the DESeq2 package to account for sequencing d
 - Run the Differential Expression Analysis using DESeq function on dds.
 
 <img width="407" height="775" alt="IMG4" src="https://github.com/user-attachments/assets/a6359c20-88cc-4f4d-af7d-b29fa27b202e" />
+
 
 
 - Filter Upregulated and Downregulated genes
